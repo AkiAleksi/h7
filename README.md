@@ -1,9 +1,23 @@
 # h7
 
+# x
+
+Karvinen 2022: Cracking Passwords with Hashcat
+
+-Hashcatin ja hashid:n asennus
+-Hashid:n käyttö. Sen avulla voidaan tunnistaa käytetty algoritmi
+-Sitten käytiin läpi hashcatin käyttö
+
+Karvinen 2023: Crack File Password With John
+
+-John the Ripperin Jumbo version asennus
+-Johnin käyttöohjeet
+
+
 # a
 
-- Katsoin video ohjeen hascatin lataamisesta ja käytöstä https://www.youtube.com/watch?v=KLry7bf51QQ.
-  Latasin hashcatin sivuilta hashcat binaries https://hashcat.net/hashcat/.
+- Katsoin video ohjeen hascatin lataamisesta ja käytöstä: https://www.youtube.com/watch?v=KLry7bf51QQ.
+  Latasin hashcatin sivuilta hashcat binaries: https://hashcat.net/hashcat/.
   Unzippasin tiedoston. Loin kansioon kaksi eri txt fileä hash.txt (murretava) ja cracked.txt (murrettu salasana).
 
 - Loin MD5-hashin salasanasta ja laitoin hashin hash.txt fileen.
@@ -81,4 +95,21 @@ Komento kerää osoitteesta kaikki sanat, jotka ovat yli viisi merkkiä pitkiä.
 
 
 <img width="366" alt="Screenshot 2023-12-09 at 19 03 55" src="https://github.com/AkiAleksi/h7/assets/112399816/73e83e4f-d1bb-4359-a5e5-6a65a465f3d9">
+
+# d
+
+
+Fuff ja porttiskannaus: https://github.com/Viktorialissa/PenTest/blob/main/h2.md
+
+# e
+
+Tarkistettu
+
+
+# Lähteet
+
+https://www.youtube.com/watch?v=KLry7bf51QQ
+https://hashcat.net/hashcat/.
+https://terokarvinen.com/2023/crack-file-password-with-john/
+https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 
