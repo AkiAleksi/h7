@@ -62,4 +62,13 @@ Tämä avautui.
 
 
 
+
+
 <img width="362" alt="Screenshot 2023-12-08 at 10 59 18" src="https://github.com/AkiAleksi/h7/assets/112399816/c605006a-b779-4544-8077-15dd9ae2c872">
+
+
+
+
+
+<img width="366" alt="Screenshot 2023-12-09 at 19 03 55" src="https://github.com/AkiAleksi/h7/assets/112399816/73e83e4f-d1bb-4359-a5e5-6a65a465f3d9">
+
