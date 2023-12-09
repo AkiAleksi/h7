@@ -59,7 +59,7 @@ Tämä avautui.
 
   -Tarkistin Hashid:llä f5bc7fcc7f5b3b6af7ff79e0feafad6d1a948b6a2c18de414993c1226be48c1f 
   -Sain nämä algoritmit vastaukseksi. 
-  -SHA-256 
+  -SHA-256 oikea algoritmi
   
 
 <img width="333" alt="Screenshot 2023-12-09 at 19 01 03" src="https://github.com/AkiAleksi/h7/assets/112399816/498add68-78ed-499d-a905-82691bc7bbe3">
