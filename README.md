@@ -56,18 +56,28 @@ Tämä avautui.
   
   
   # c
+
+  -Tarkistin Hashid:llä f5bc7fcc7f5b3b6af7ff79e0feafad6d1a948b6a2c18de414993c1226be48c1f 
+  -Sain nämä algoritmit vastaukseksi. 
+  -SHA-256 
   
 
 <img width="333" alt="Screenshot 2023-12-09 at 19 01 03" src="https://github.com/AkiAleksi/h7/assets/112399816/498add68-78ed-499d-a905-82691bc7bbe3">
 
 
+- Asensin Cewl sovelluksen, jotta saan sanalistan sivun sanoista. https://github.com/digininja/CeWL
+- sudo apt-get update
+- sudo apt-get install cewl
 
+Ajoin komennon cewl -d 0 -m 5 -with-numbers https://terokarvinen.com/2023/eettinen-hakkerointi-2023/ -w lista.txt
+Komento kerää osoitteesta kaikki sanat, jotka ovat yli viisi merkkiä pitkiä. 
 
 
 <img width="362" alt="Screenshot 2023-12-08 at 10 59 18" src="https://github.com/AkiAleksi/h7/assets/112399816/c605006a-b779-4544-8077-15dd9ae2c872">
 
 
-
+- Sen jälkeen ajetaan hashcatilla lista -a 0 vastaan. Kyseessä on sanakirjahyökkäys -m 1400. Algoritmi SHA2-256.
+   Komennon loppuun sanakirja. hashcat -a 0 -m 1400 -o asddas.txt 'f5bc7fcc7f5b3b6af7ff79e0feafad6d1a948b6a2c18de414993c1226be48c1f' lista.txt
 
 
 <img width="366" alt="Screenshot 2023-12-09 at 19 03 55" src="https://github.com/AkiAleksi/h7/assets/112399816/73e83e4f-d1bb-4359-a5e5-6a65a465f3d9">
