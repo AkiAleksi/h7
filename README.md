@@ -99,7 +99,27 @@ Komento kerää osoitteesta kaikki sanat, jotka ovat yli viisi merkkiä pitkiä.
 # d
 
 
-Fuff ja porttiskannaus: https://github.com/Viktorialissa/PenTest/blob/main/h2.md
+Porttiskannaus: https://github.com/Viktorialissa/PenTest/blob/main/h2.md
+
+-Cheatsheet
+
+Nmap on laajasti käytetty porttiskannaustyökalu. Voit käyttää sitä komentoriviltä seuraavasti:
+nmap [kohde]
+
+Esimerkiksi: nmap 192.168.1.1
+
+Komennosta eri versioita:
+
+nmap TCP connect scan -sT: sudo nmap -sT 127.0.0.2
+nmap TCP SYN "used to be stealth" scan, -sS: sudo nmap -sS -p 22 127.0.0.2
+nmap ping sweep -sn: sudo nmap -sn 127.0.0.2
+nmap don't ping -Pn: sudo nmap -Pn 127.0.0.2
+nmap version detection -sV: sudo nmap -sV -p 22 127.0.0.2
+nmap output files -oA foo: sudo nmap -oA foo -p 22 127.0.0.2
+
+
+
+
 
 # e
 
