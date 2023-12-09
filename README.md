@@ -136,3 +136,5 @@ https://terokarvinen.com/2023/crack-file-password-with-john/
 
 https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 
+https://github.com/Viktorialissa/PenTest/blob/main/h2.md
+
