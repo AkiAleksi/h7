@@ -109,7 +109,10 @@ Tarkistettu
 # Lähteet
 
 https://www.youtube.com/watch?v=KLry7bf51QQ
+
 https://hashcat.net/hashcat/.
+
 https://terokarvinen.com/2023/crack-file-password-with-john/
+
 https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 
