@@ -2,6 +2,16 @@
 
 # a
 
+- Katsoin video ohjeen hascatin lataamisesta ja käytöstä https://www.youtube.com/watch?v=KLry7bf51QQ.
+  Latasin hashcatin sivuilta hashcat binaries https://hashcat.net/hashcat/.
+  Unzippasin tiedoston. Loin kansioon kaksi eri txt fileä hash.txt (murretava) ja cracked.txt (murrettu salasana).
+
+- Loin MD5-hashin salasanasta ja laitoin hashin hash.txt fileen.
+- Sen jälkeen ajoin komennon hashcat -m0 -a3 -o cracked.txt hash.txt
+- Salasana murrettiin.
+ 
+
+
 <img width="353" alt="ratkaistu" src="https://github.com/AkiAleksi/h7/assets/112399816/db710314-2716-47e1-9d4a-50b87124dfdb">
 
 
