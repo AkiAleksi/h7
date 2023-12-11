@@ -63,9 +63,9 @@ Karvinen 2023: Crack File Password With John
   john tero.txt
 
   
-  
-   <img width="424" alt="Screenshot 2023-12-09 at 17 22 53" src="https://github.com/AkiAleksi/h7/assets/112399816/084a3739-e120-4d49-9ce8- 
- 2aa1e03c5b83">
+  <img width="424" alt="Screenshot 2023-12-09 at 17 22 53" src="https://github.com/AkiAleksi/h7/assets/112399816/7e5b5873-d96e-4705-95af-a9236f959219">
+
+ 
 
 
 
