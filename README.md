@@ -73,6 +73,9 @@ Löytyi sana butterfly. Menin tero.zip tiedostoon ja kokeilin syöttää salasan
 Tämä avautui. 
 
 
+
+
+
 <img width="533" alt="Screenshot 2023-12-09 at 17 24 07" src="https://github.com/AkiAleksi/h7/assets/112399816/f99af1d3-595d-4a00-b980-8fe5b6a5dac1">
 
   
