@@ -85,7 +85,7 @@ Tämä avautui.
   -SHA-256 oikea algoritmi
   
 
-<img width="333" alt="Screenshot 2023-12-09 at 19 01 03" src="https://github.com/AkiAleksi/h7/assets/112399816/498add68-78ed-499d-a905-82691bc7bbe3">
+<img width="362" alt="Screenshot 2023-12-08 at 10 59 18" src="https://github.com/AkiAleksi/h7/assets/112399816/c605006a-b779-4544-8077-15dd9ae2c872">
 
 
 - Asensin Cewl sovelluksen, jotta saan sanalistan sivun sanoista. https://github.com/digininja/CeWL
@@ -96,7 +96,9 @@ Ajoin komennon cewl -d 0 -m 5 -with-numbers https://terokarvinen.com/2023/eettin
 Komento kerää osoitteesta kaikki sanat, jotka ovat yli viisi merkkiä pitkiä. 
 
 
-<img width="362" alt="Screenshot 2023-12-08 at 10 59 18" src="https://github.com/AkiAleksi/h7/assets/112399816/c605006a-b779-4544-8077-15dd9ae2c872">
+
+
+<img width="333" alt="Screenshot 2023-12-09 at 19 01 03" src="https://github.com/AkiAleksi/h7/assets/112399816/498add68-78ed-499d-a905-82691bc7bbe3">
 
 
 - Sen jälkeen ajetaan hashcatilla lista -a 0 vastaan. Kyseessä on sanakirjahyökkäys -m 1400. Algoritmi SHA2-256.
