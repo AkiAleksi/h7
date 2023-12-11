@@ -31,6 +31,8 @@ Karvinen 2023: Crack File Password With John
 
 # b
 
+  Löysin youtube videon, jossa neuvotaan John The Ripperin käyttö: https://www.youtube.com/watch?v=yyIoX0QT6QM
+
   Asensin tarvittavat työkalut ja kirjastot. Sen jälkeen kloonasin John the Ripperin repon.
 
   $ sudo apt-get install build-essential zlib1g zlib1g-dev libbz2-1.0 libbz2-dev
@@ -52,12 +54,17 @@ Karvinen 2023: Crack File Password With John
   Latasin https://terokarvinen.com/2023/crack-file-password-with-john/ zip tiedoston.
   Tein zip tiedostosta hashin omaan tiedostoon ja ajoin johnin.
 
-  $ $HOME/john/run/zip2john tero.zip >tero.zip.hash  
+  cd Desktop
 
-  $ $HOME/john/run/john tero.zip.hash  
+  zip2john tero.zip > tero.txt
+
+  cat tero.txt
+
+  john tero.txt
   
   
-<img width="424" alt="Screenshot 2023-12-09 at 17 22 53" src="https://github.com/AkiAleksi/h7/assets/112399816/084a3739-e120-4d49-9ce8-2aa1e03c5b83">
+ <img width="424" alt="Screenshot 2023-12-09 at 17 22 53" src="https://github.com/AkiAleksi/h7/assets/112399816/084a3739-e120-4d49-9ce8- 
+ 2aa1e03c5b83">
 
 
 Löytyi sana butterfly. Menin tero.zip tiedostoon ja kokeilin syöttää salasanan SECRET.md.
@@ -137,4 +144,6 @@ https://terokarvinen.com/2023/crack-file-password-with-john/
 https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
 
 https://github.com/Viktorialissa/PenTest/blob/main/h2.md
+
+https://www.youtube.com/watch?v=yyIoX0QT6QM
 
